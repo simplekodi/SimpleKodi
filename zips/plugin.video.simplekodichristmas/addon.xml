@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.simplekodichristmas"
+	name="Simple Kodi Christmas"
+	version="2.0.0"
+	provider-name="Simple Kodi">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Simple Kodi Christmas Youtube video Add-on</summary>
+    <description lang="en">Christmas videos and music from Youtube</description>
+    <platform>all</platform>
+    <forum></forum>
+    <source></source>
+    <website></website>
+    <email></email>
+    <license>GPL v2.0</license>
+    <news>Updated with new artwork resources</news>
+  </extension>
+</addon>

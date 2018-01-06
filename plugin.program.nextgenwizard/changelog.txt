@@ -1,0 +1,152 @@
+v4.1.5
+Moved Backup Login above Backup Build in Menu as requested
+Made small changes to the glo_var file dealing with the BASEURL
+
+v4.1.4
+Added ability to check version of wizard and prompt download when new version is released.
+
+v4.1.3
+Fixed a small issue with the way the build name was displayed while downloading
+
+v4.1.2
+Restored the 'keep' version text ability
+
+v4.1.1
+Moved support to glo_var file so users can set their own support.txt file
+Removed the ability to save the version.txt file as it could cause an
+issue upon fresh start.
+
+v4.1.0
+Corrected the issue with the wizard creating the verstion.txt file inside the userdata folder
+
+v4.0.9
+New addon.xml file - written for Kodi 17
+
+v4.0.8
+Added the ability to 'keep' your version.txt file
+
+v4.0.7
+I have cleaned up the code to the point I believe I am personally happy with it....
+I found two other functions that had an extra pop-up prior to force close.. I have removed both of them.
+
+v4.0.6
+Versions got mixed up somehow... Put the adult menu back into the Builds Menu.
+
+v4.0.5
+Fixed small issue that was causing an error message upon startup
+
+v4.0.4
+Changed the notification pop-up back to a notification only, with Dismiss and Remind me later buttons.
+Re-added the check version pop-up... You will need the version.txt in your userdata folder and on your host to verify versions.
+
+v4.0.3
+Moved the Adult Builds to it's new location under Builds Menu..
+If you have it enabled on your wizard, you now can see it listed and browse the adult builds you offer from that window.
+
+v4.0.2
+Added icon images for Advanced Settings, Favorites, Profiles, and Sources
+
+v4.0.1
+Notification Buttons Changed
+Notification now has Update Build and Remind Me Later
+
+v4.0.0
+Rewrote the notification code and the version check
+Added the code to save Advanced Settings, Favorites, Profiles, and Sources
+Rewrote the killxbmc code to make it cleaner
+
+v3.6.0
+Make a couple minor changes as requested to the glo_var file and a couple other small changes to the wizard.
+
+v3.5.9
+Added import base_info to service.py file because it was causing errors.
+
+v3.5.8
+Removed extra pop-up when version is different.
+
+v3.5.7
+Coded the entire wizard to be easily changed from the glo_var file. You can
+change the names, icons and even the colors quickly for the entire wizard here.
+
+v3.5.6
+added abilty to change menu 'kodi help' from glo_var , also played with version check here too
+
+v3.5.5
+Added Adult Builds, Developer Menu and View Log images
+
+v3.5.4
+Fresh install now prompts you to save your login data prior to running
+Changed the wording of fresh install a bit
+
+v3.5.3
+Rearranged the Maintenance Menu
+Added the ability to toggle the following menu's on or off
+Adult Builds Menu
+Developer Menu
+Themes Menu
+Added View Log to Developer Menu
+Moved Check repos and sources to Developer Menu
+Moved Convert Paths to special to Developer Menu
+
+v3.5.2
+Moved Editable Variables to the top of base_info.py file to make it easier for users
+
+v3.5.1
+Made one variable user friendly, it now pulls from the editable variables
+
+v3.5.0
+Corrected wording for broken repositories
+
+v3.4.9
+Added check for broken sources and broken repositories along with custom images
+
+v.3.4.8
+Correction made to the themes icon
+
+v3.4.7
+Correction made to the credits icon
+
+v.3.4.6
+Changed setview for menus
+
+v3.4.5
+Minor code change
+
+v3.4.4
+Changed wording in delete thumbs
+
+v3.4.3
+Changed Support Information
+
+v3.4.2
+Made changes to the downloader.py and services.py files
+
+v3.4.1
+Changed check version coding
+
+v3.4.0
+Corrected issue with Build Menu
+
+v3.3.9
+Made change on a global varible to pull information from the editable variables
+
+v.3.3.8
+Changed where the build.txt file pulls it's images from
+
+v3.0.0
+Wizard has been re-written
+Force Close works on all devices now
+Save and Restore Builds and Login Data Added
+Theme Menu Added
+New Icon Images
+Build Version Added
+Support Text is managed by hosted text file
+
+v1.0.3
+bug fix
+
+v1.0.2
+Fixed Script Error when Force Colsing Kodi
+
+v1.0
+Initial Release

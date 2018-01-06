@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.nextgenwizard" name="Simple Kodi [COLOR dodgerblue][B]Next Gen. [/B][/COLOR] [COLOR snow][B]Wizard[/B][/COLOR]" version="4.2.0" provider-name="Simple Kodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Welcome to the Simple Kodi Next Generation Wizard</summary>
+    <description lang="en">This Software is designed to keep your KODI device up to date and running smoothly</description>
+    <disclaimer lang="en">For help and support ... Please visit our group on Facebook!</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>https://www.facebook.com/groups/1404688236305488/</website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon>resources/art/icon.png</icon>
+        <fanart>resources/art/fanart.jpg</fanart>
+        <screenshot>resources/screenshot-01.jpg</screenshot>
+        <screenshot>resources/screenshot-01.jpg</screenshot>
+        <screenshot>resources/screenshot-01.jpg</screenshot>
+        <screenshot>resources/screenshot-01.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.program.simplewizard" name="Simple Wizard" version="1.0.1" provider-name="Simple Kodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">Welcome to Simple Wizard</summary>
+		<description lang="en">This Software is designed to keep your KODI device up to date and running smoothly</description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.cromulent" name="Cromulent" version="1.0" provider-name="Simple Kodi">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.urlresolver" version="1.2.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Cromulent movies and TV</summary>
+      <description lang="en">A perfectly cromulent movie and tv show addon!</description>
+      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+      <platform>all</platform>
+        <website></website>
+        <video_guide>xtOqLY5PJDY</video_guide>
+    </extension>
+</addon>
+
+<addon id="plugin.video.simplekodichristmas"
+	name="Simple Kodi Christmas"
+	version="2.0.0"
+	provider-name="Simple Kodi">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Simple Kodi Christmas Youtube video Add-on</summary>
+    <description lang="en">Christmas videos and music from Youtube</description>
+    <platform>all</platform>
+    <forum></forum>
+    <source></source>
+    <website></website>
+    <email></email>
+    <license>GPL v2.0</license>
+    <news>Updated with new artwork resources</news>
+  </extension>
+</addon>
+</addons>

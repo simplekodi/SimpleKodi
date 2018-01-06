@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="[COLOR dodgerblue][B]Wizard Setup[/B][/COLOR]">     
+        <setting type="lsep" label="[COLOR dodgerblue][B]The Important Bit[/B][/COLOR]"/>
+		<setting id="URL" type="text" label="[COLOR snow][B]URL of your host[/B][/COLOR]" default="http://simplewizard.000webhostapp.com" visible="true"/>        
+        <setting id="addontitle" type="text" label="[COLOR dodgerblue][B]Title of your Wizard[/B][/COLOR]" default="Simple Kodi NEXT GENERATION WIZARD" visible="true"/>       
+        <setting id="groupname" type="text" label="[COLOR snow][B]Group Name[/B][/COLOR]" default="Simple Kodi - " visible="true"/>        
+        <setting id="path" type="text" label="[COLOR dodgerblue][B]Directory Path[/B][/COLOR]" default="" visible="true"/>         
+        <setting id="enablenotify" type="text" label="[COLOR snow][B]Enable Notifications? Yes or No[/B][/COLOR]" default="Yes" visible="true"/>            
+        <setting type="lsep" label="[COLOR dodgerblue][B]Text colours[/B][/COLOR]"/>
+		<setting id="colour1" type="text" label="[COLOR snow][B]Group Name Color[/B][/COLOR]" default="dodgerblue" visible="true"/>     
+        <setting id="colour2" type="text" label="[COLOR dodgerblue][B]General Text Color[/B][/COLOR]" default="snow" visible="true"/>
+        <setting id="colour3" type="text" label="[COLOR snow][B]Positive Results Color[/B][/COLOR]" default="springgreen" visible="true"/>         
+        <setting id="colour4" type="text" label="[COLOR dodgerblue][B]Negative Results Color[/B][/COLOR]" default="crimson" visible="true"/>            
+        <setting id="colour5" type="text" label="[COLOR snow][B]Notifications Text Color[/B][/COLOR]" default="snow" visible="true"/>   
+	    <setting type="lsep" label="[COLOR dodgerblue][B]Notification Options[/B][/COLOR]"/>
+	    <setting id="header" type="text" label="[COLOR snow][B]Headertype text/image[/B][/COLOR]" default="text" visible="true"/>     
+        <setting id="headerimage" type="text" label="[COLOR dodgerblue][B]Header Image URL 424x180[/B][/COLOR]" default="" visible="true"/>
+        <setting id="Backnotify" type="text" label="[COLOR snow][B]Notification Window Background URL[/B][/COLOR]" default="" visible="true"/>
+	<setting type="lsep" label="[COLOR dodgerblue][B]Menu Titles[/B][/COLOR]"/>
+		<setting id="adultmenu" type="text" label="[COLOR dodgerblue][B]Adult Menu Title[/B][/COLOR]" default="Adult Builds Menu" visible="true"/>
+		<setting id="kryptonmenu" type="text" label="[COLOR dodgerblue][B]Krypton Menu Title[/B][/COLOR]" default="Krypton Builds Menu" visible="true"/>
+        <setting id="backupbuild" type="text" label="[COLOR snow][B]Backup Build Menu Title[/B][/COLOR]" default="Backup Build (Exc: Databases & Thumbnails)" visible="true"/>  
+        <setting id="backuplogin" type="text" label="[COLOR dodgerblue][B]Backup Login Menu Title[/B][/COLOR]" default="Backup Login Data" visible="true"/>  
+        <setting id="buildmenu" type="text" label="[COLOR snow][B]Builds Menu Title[/B][/COLOR]" default="Build Menu" visible="true"/>  
+        <setting id="apkinstal" type="text" label="[COLOR dodgerblue][B]Apk Menu Title[/B][/COLOR]" default="Apk Menu" visible="true"/>
+        <setting id="checkrepo" type="text" label="[COLOR dodgerblue][B]Check Repos Menu Title[/B][/COLOR]" default="Check for Broken Repositories" visible="true"/>  
+        <setting id="checksource" type="text" label="[COLOR snow][B]Check Sources Menu Title[/B][/COLOR]" default="Check for Broken Sources" visible="true"/>  
+        <setting id="clearcache" type="text" label="[COLOR dodgerblue][B]Clear Cache Menu Title[/B][/COLOR]" default="Clear Cache" visible="true"/>  
+        <setting id="clearpackages" type="text" label="[COLOR snow][B]Clear Packages Menu Title[/B][/COLOR]" default="Clear Packages" visible="true"/>  
+        <setting id="clearthumbnails" type="text" label="[COLOR dodgerblue][B]Clear Thumbnails Menu Title[/B][/COLOR]" default="Clear Thumbnails" visible="true"/>
+        <setting id="contactus" type="text" label="[COLOR snow][B]Contact Us Menu Title[/B][/COLOR]" default="Contact us" visible="true"/>        
+        <setting id="convertpath" type="text" label="[COLOR dodgerblue][B]Convert Paths Menu Title[/B][/COLOR]" default="Convert Paths to Special" visible="true"/>  
+        <setting id="deleteall" type="text" label="[COLOR snow][B]Delete All Backups Menu Title[/B][/COLOR]" default="Delete All Backups" visible="true"/>  
+        <setting id="deletebackup" type="text" label="[COLOR dodgerblue][B]Delete Backup Menu Title[/B][/COLOR]" default="Delete A Backup" visible="true"/>  
+        <setting id="devmenu" type="text" label="[COLOR snow][B]Developer Menu Title[/B][/COLOR]" default="Developer Menu" visible="true"/>  
+        <setting id="freshstart" type="text" label="[COLOR dodgerblue][B]Fresh Start Menu Title[/B][/COLOR]" default="Fresh Start" visible="true"/>  
+        <setting id="maintmenu" type="text" label="[COLOR snow][B]Maintenance Menu Title[/B][/COLOR]" default="Maintenance Menu" visible="true"/> 
+        <setting id="restoredata" type="text" label="[COLOR dodgerblue][B]Restore Data Menu Title[/B][/COLOR]" default="Restore Data" visible="true"/>    
+        <setting id="restorebackupdata" type="text" label="[COLOR snow][B]Restore Build Menu Title[/B][/COLOR]" default="Restore Build Backup" visible="true"/>  
+        <setting id="restorelogindata" type="text" label="[COLOR dodgerblue][B]Restore Login Menu Title[/B][/COLOR]" default="Restore Login Data" visible="true"/>  
+        <setting id="savemenu" type="text" label="[COLOR snow][B]Save Data Menu Title[/B][/COLOR]" default="Save Data" visible="true"/>  
+        <setting id="thememenu" type="text" label="[COLOR dodgerblue][B]Theme Menu Title[/B][/COLOR]" default="Theme Menu" visible="true"/>  
+        <setting id="viewlog" type="text" label="[COLOR snow][B]View Log Menu Title[/B][/COLOR]" default="View Kodi Log" visible="true"/>		
+	</category>
+	
+    <category label="[COLOR dodgerblue][B]General Options[/B][/COLOR]">
+        <setting type="lsep" label="[COLOR snow][B]Auto View Settings[/B][/COLOR]"/>
+        <setting id="auto-view" type="bool" label="[COLOR dodgerblue][B]Enable Auto View[/B][/COLOR]" default="true"/>
+        <setting id="MAIN" type="number" label="[COLOR snow][B]MAIN[/B][/COLOR]" default="[COLOR dodgerblue][B]500[/B][/COLOR]" enable="!eq(-1,false)"/>               
+        <setting type="lsep" label="[COLOR dodgerblue][B]Backup Settings[/B][/COLOR]"/>
+        <setting id="zip" type="folder"    label="[COLOR snow][B]Choose Backup Storage Location:[/B][/COLOR]"      default="special://home/backupdir/"/>
+        <setting type="lsep" label="[COLOR dodgerblue][B]Notifications Options[/B][/COLOR]"/>        
+        <setting id="notify" type="bool" label="[COLOR snow][B]Disable Notifications on Startup[/B][/COLOR]" default="false"/>
+        <setting id="lastbuildcheck" type="text" label="Next check for build update: " enable="true" default=""/>      
+        <setting id="noteid" type="text" label="Latest Notification" visible="false" />
+        <setting id="notedismiss" type="bool" label="Dismiss or Remind me later" visible="false" />
+        <setting id="contnoteid" type="text" label="Latest Contact Notification" visible="false" />
+        <setting id="contnotedismiss" type="bool" label="Dismiss or Remind me later" visible="false" />
+        <setting id="crednoteid" type="text" label="Latest Credits Notification" visible="false" />
+        <setting id="crednotedismiss" type="bool" label="Dismiss or Remind me later" visible="false" />          
+    </category> 
+
+    <category label="[COLOR snow][B]Tools and Keep Settings[/B][/COLOR]">
+        <setting type="lsep" label="[COLOR dodgerblue][B]Keep Settings When Installing Build[/B][/COLOR]"/>
+        <setting id="keepfavourites" type="bool" label="[COLOR snow][B]Keep My [/B][/COLOR][COLOR dodgerblue][B]Favourites[/B][/COLOR]" default="true"/>
+        <setting id="keepsources" type="bool" label="[COLOR snow][B]Keep My [/B][/COLOR][COLOR dodgerblue][B]Sources[/B][/COLOR]" default="true"/>
+        <setting id="keepprofiles" type="bool" label="[COLOR snow][B]Keep My [/B][/COLOR][COLOR dodgerblue][B]Profiles[/B][/COLOR]" default="true"/>
+        <setting id="keepadvanced" type="bool" label="[COLOR snow][B]Keep My [/B][/COLOR][COLOR dodgerblue][B]AdvancedSettings[/B][/COLOR]" default="true"/> 
+        <setting id="keepversion" type="bool" label="[COLOR snow][B]Keep My [/B][/COLOR][COLOR dodgerblue][B]Version Text File[/B][/COLOR]" default="true"/>               
+        <setting type="lsep" label="[COLOR dodgerblue][B]Enable / [/B][/COLOR][COLOR snow][B]Disable Menu Options[/B][/COLOR]"/>
+        <setting id="adult" type="bool" label="[COLOR snow][B]Enable [/B][/COLOR][COLOR dodgerblue][B]Adult Builds [/B][/COLOR][COLOR snow][B]Menu[/B][/COLOR] " enable="true" default=""/> 
+		<setting id="apk" type="bool" label="[COLOR snow][B]Enable [/B][/COLOR][COLOR dodgerblue][B]Apk [/B][/COLOR][COLOR snow][B]Menu[/B][/COLOR] " enable="true" default="true"/> 
+        <setting id="krypton" type="bool" label="[COLOR snow][B]Enable [/B][/COLOR][COLOR dodgerblue][B]Krypton Builds [/B][/COLOR][COLOR snow][B]Menu[/B][/COLOR] " enable="true" default="true"/> 
+        <setting id="developer" type="bool" label="[COLOR snow][B]Enable [/B][/COLOR][COLOR dodgerblue][B]Developer [/B][/COLOR][COLOR snow][B]Menu[/B][/COLOR]" enable="true" default="true" />       
+        <setting id="theme" type="bool" label="[COLOR snow][B]Enable [/B][/COLOR][COLOR dodgerblue][B]Themes [/B][/COLOR][COLOR snow][B]Menu[/B][/COLOR]" default="false" />
+    </category>   
+</settings>
